@@ -90,10 +90,13 @@ str.length())))
 
 
 
-//String 1 fristTwo not yet completed
+//firstTwo
 public String firstTwo(String str) {
-  String first2 = str.substring(0,2);
-  return first2;
-  
+  int len = str.length();
+  if (len < 2)
+    return str;
+  else
+    return str.substring(0,2);
 }
+
 
