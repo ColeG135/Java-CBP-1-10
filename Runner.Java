@@ -58,15 +58,13 @@ public class Runner {
         return (a % 10 == b % 10);
     }
 
-   public int arrayCount9(int[] nums) {
-  int count = 0;
-  for (int i=0; i<nums.length; i++) {
-    if (nums[i] == 9) { 
-      return 9;
-    } 
-  }
-}
-
-//not finished. Finish before working on another on weekend
-
+      public int arrayCount9(int[] nums) {
+    int count = 0;
+    for (int i=0; i<nums.length; i++) {
+        if (nums[i] == 9) {
+        count++;
+        }
+    }
+    return count;
+    }
 }
