@@ -58,6 +58,7 @@ public class Runner {
         return (a % 10 == b % 10);
     }
 
+      //arrayCount9
       public int arrayCount9(int[] nums) {
     int count = 0;
     for (int i=0; i<nums.length; i++) {
@@ -67,7 +68,8 @@ public class Runner {
     }
     return count;
     }
-    
+        
+        //repeatSeparator
         public String repeatSeparator(String word, String sep, int count) {
     String newWord = "";
     for (int i = 0; i < count; i++) {
